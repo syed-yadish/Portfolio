@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Materialize - CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Yadish Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <!-- Nav class 1 -->
+    <nav>
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo">
+          <a
+            id="logo-container"
+            aria-label="Navigate to the beginning of the page"
+            href="#intro"
+            class="brand-logo grey-blue-text"
+          >
+            <img
+              src="/images/dp.jpeg"
+              class="circle img-responsive profile-pic"
+              alt="avatar"
+            />
+          </a>
+        </li>
+
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+
+        <li class="bold">
+          <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-av-my-library-books small"></i
+            ><span>Projects</span></a
+          >
+        </li>
+
+        <li class="bold">
+          <!--
+        ICONS
+        -->
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-action-assessment small"></i><span>Skills</span></a
+          >
+        </li>
+
+        <li class="bold">
+          <!--
+        ICONS:
+        -->
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+
+        <li class="bold">
+          <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Nav class 2 -->
+    <nav class="hide-on-large only trigger z-depth-1">
+      <a
+        aria-label="Toggle visibility of the mobile navbar"
+        href="#"
+        data-activates="slide-out"
+        class="button-collapse"
+        ><i class="mdi-navigation-menu"></i
+      ></a>
+      <div class="name-title">
+        <a
+          id="name"
+          aria-label="Navigate to the beginning of the page"
+          href="#"
+          class="teal-text"
+          >Yadish Bukhari</a
+        ><span class="black-text">Software Developer</span>
+      </div>
+    </nav>
+
+    <!-- Nav class 3 -->
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-av-my-library-books small"></i
+            ><span>Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-action-assessment small"></i><span>Skills</span></a
+          >
+        </li>
+
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <!-- First Section: Introduction -->
+      <section id="intro" class="section scrollspy full-height">
+        <div class="container">
+          <div class="col-md-9">
+            <div
+              class="content section-padding valign"
+              style="margin-left: 10%; margin-top: 50px"
+            >
+              <div class="caption">
+                <h2>Hi, I'm Yadish Bukhari</h2>
+                <h5>
+                  I am Passionate about software development. A Curious learner
+                  with keen interest in new technologies. I am adaptable and not
+                  afraid of new challenges. A Self-driven, quick starter and a
+                  passionate programmer with a curious mind. I enjoy solving
+                  complex and challenging real-world problems.
+                </h5>
+              </div>
+              <br />
+              <br />
+              <div class="social">
+                <a
+                  href="https://www.linkedin.com/in/yadish-bukhari-5b1a37a5/"
+                  target="_blank"
+                >
+                  <button class="icon-btn linkedin">
+                    <i class="fa fa-linkedin"></i>
+                  </button>
+                </a>
+                <a href="https://github.com/syed-yadish" target="_blank">
+                  <button class="icon-btn github">
+                    <i class="fa fa-github"></i>
+                  </button>
+                </a>
+              </div>
+              <div class="buttons">
+                <a href="#about" class="readme">Read More</a>
+                <a href="#contact" class="contactme">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Second Section: About -->
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <p>
+            I hold a Masters degree and extensive research experience in
+            Bioinformatics. I developed my interest in coding and i started to
+            learn Java by watching and practicing from youtube tutorials. I
+            completed a software development intensive training program from
+            Novare Potential Software Development Academy at KTH Stockholm and
+            learned alot from that. I enjoy problem-solving and coding and
+            always strive to bring 100% to the work I do. <br />
+            I have worked on technologies like React, JavaScript, Java, Spring,
+            NodeJS, Express, PostgreSQL, Docker, HTML5, CSS, Sass during my
+            training. I am passionate about developing applications that solve
+            real-world problems benefiting millions of users.
+          </p>
+          <p></p>
+          <ul>
+            <li><b>Languages:</b> Java, JavaScript, C, C++, HTML/CSS, Sass</li>
+            <li><b>Database:</b> PostgreSQL</li>
+            <li>
+              <b>Frameworks:</b> Scrum, Spring, Node.js, Express, Bootstrap
+            </li>
+            <li>
+              <b>Tools & Technologies:</b> Git, Docker, Nodemon, Postman,
+              Firebase, Heroku, FileZilla
+            </li>
+          </ul>
+          <p>
+            I am looking for an opportunity to work in a challenging position
+            combining my skills in Software Engineering and Web development
+            which provides professional development, interesting experiences and
+            personal growth.
+          </p>
+        </div>
+      </section>
+      <!-- Third Section: Experience -->
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <!-- Latest Experience -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      >Novare Software Development Academy at KTH</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text text-darken-2">Software Engineer</div>
+              <ul>
+                <li>
+                  Developed, Managed and Deployed many full stack RESTful apps
+                  with CRUD operations using React, Java and Javascript.
+                </li>
+                <li>
+                  Worked as a Product owner and Scrum master in many group
+                  projects.
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>February 2021 - June 2021 | Stockholm, Sweden</span>
+            </div>
+          </div>
+          <!-- Experience 2 -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title">BMC Uppsala University</span>
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text text-darken-2">
+                Bioinformatics Researcher
+              </div>
+              <ul>
+                <li>Worked on Next Generation Sequence Analysis of DNA/RNA.</li>
+                <li>
+                  Used Perl and Matlab alongwith other Bioinformatics tools for
+                  genomic analysis.
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>2014 - 2016 | Uppsala, Sweden</span>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title">University of Agriculture</span>
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text text-darken-2">
+                Bioinformatics Lecturer
+              </div>
+              <ul>
+                <li>
+                  Taught Bioinformatics courses to undergraduate students at
+                  University.
+                </li>
+                <li>Worked as Incharge of Bioinformatics Lab at Univeristy.</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>2011 - 2014 | Faisalabad, Pakistan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fourth Section: Projects -->
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="hiking buddy app"
+                    src="/images/logo-p1.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Hiking Buddy Web-App<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>A full stack social media theme app</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>
+                      <b>Tools:</b> React, SpringWeb, NodeJS, Express,
+                      PostgreSQL, Docker, Heroku
+                    </li>
+                    <li>
+                      Sign-Up/login to the web app(with OAuth-based Sign-In).
+                    </li>
+                    <li>
+                      Users can Post, Comment, Like, Add other users as friends.
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit "
+                      href="https://hiking-buddysda.web.app/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/syed-yadish/HikingBuddy.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="package track"
+                    src="/images/pta.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Package Tracking App<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>A Package Tracking app using React JS</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> React, JavaScript, Axios, Html, CSS.</li>
+                    <li>
+                      A Front-End web site that allows a user to view their
+                      package orders, search by parcel ID. The Data is fetched
+                      from a Mock API using Axios and rendered to the screen.
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/syed-yadish/Package-tracking-app.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="munamii"
+                    src="/images/munami.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Munamii Bakery Website<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    A simple website of Munamii Bakery using Html, Css and
+                    JavaScript.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title teal-text"
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> HTML, CSS, JavaScript, Firebase.</li>
+                    <li>
+                      Users can view products, prices and contact the bakery.
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Blog website"
+                      href="https://munamii-webpage.web.app/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/syed-yadish/MunamiiWebPage.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="to do list"
+                    src="/images/todo.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >ToDo List<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    A simple ToDoList application written in Java for creating,
+                    editing and deleting Tasks.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title teal-text"
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>
+                      It has a number of features. I can add a new task, edit a
+                      task, show tasks list and exit function.
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/syed-yadish/MyToDoList.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="unibike"
+                    src="/images/unibike.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Unibike Website<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>A website of Unicycles using html5 and css.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Created a Website of Unicycles with Html and Css.</li>
+                    <li>
+                      Users can visit Home page, AboutUS page, Gallery page and
+                      ContactUs page.
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/syed-yadish/project_unicycle.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fifth Section: Skills -->
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <!-- Languages and Databases -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Languages and Databases</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">Java</div>
+                <div class="col s4 m2">JavaScript</div>
+                <div class="col s4 m2">HTML5</div>
+                <div class="col s4 m2">CSS3</div>
+                <div class="col s4 m2">Sass</div>
+                <div class="col s4 m2">PostgreSQL</div>
+              </div>
+            </div>
+          </div>
+          <!-- Libraries and Frameworks -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Libraries and Frameworks</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">React</div>
+                <div class="col s4 m2">NodeJS</div>
+                <div class="col s4 m2">Spring</div>
+                <div class="col s4 m2">Express</div>
+                <div class="col s4 m2">Jest</div>
+                <div class="col s4 m2">Bootstrap</div>
+                <div class="col s4 m2"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Other -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">Git</div>
+                <div class="col s4 m2">Docker</div>
+                <div class="col s4 m2">Postman</div>
+                <div class="col s4 m2">Figma</div>
+                <div class="col s4 m2">Heroku</div>
+                <div class="col s4 m2">FileZilla</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Seventh Section: Education -->
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <!-- Education -->
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://sundsgarden.se/utbildningar-kurser/langa-kurser/yrkesutbildningar/it-som-framtidsyrke/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Sundsgården Folkhögskola</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Rydebäck, Sweden</p>
+                  <p>
+                    <b>Course: </b>IT - Front-End Developer
+                    <br />
+                  </p>
+                  <ul>
+                    <b>Relevant Courseworks:</b>
+                    <li>JavaScript</li>
+                    <li>Html5</li>
+                    <li>CSS3</li>
+                    <li>Modern frameworks</li>
+                    <li>Agile Work</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.kth.se/en/itm/sda/software-development-academy-1.841849"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Software Development Academy at KTH</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Stockholm, Sweden</p>
+                  <p>
+                    <b>Program: </b>Software Development
+                    <br />
+                  </p>
+                  <ul>
+                    <b>Relevant Courseworks:</b>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Software Engineering</li>
+                    <li>Scrum</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://cust.edu.pk/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Capital University of Science and Technology</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Islamabad, Pakistan</p>
+                  <p>
+                    <b>Degree:</b> Masters in Bioinformatics
+                    <br />
+                  </p>
+                  <ul>
+                    <b>Relevant Courseworks:</b>
+                    <li>Advanced Bioinformatics</li>
+                    <li>Algorithms</li>
+                    <li>Theory of Computation</li>
+                    <li>Molecular Biotechnology</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.comsats.edu.pk/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Comsats University</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Islamabad, Pakistan</p>
+                  <p>
+                    <b>Degree: </b>Bachelors in Bioinformatics
+                    <br />
+                  </p>
+                  <ul>
+                    <b>Relevant Courseworks:</b>
+                    <li>Bioinformatics</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Databases</li>
+                    <li>Artificial Intelligence</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Eight Section: Contact -->
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p>
+            <a
+              aria-label="Email"
+              href="mailto:yadish@live.com"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Email"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><i class="fa fa-envelope"></i
+              ><a
+                aria-label="Email"
+                href="mailto:yadish@live.com"
+                class="hoverline"
+                >yadish@live.com</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Varad on GitHub"
+              href="https://github.com/syed-yadish"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Varad on GitHub"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><i class="fa fa-github"></i
+              ><a
+                aria-label="Github"
+                href="https://github.com/syed-yadish"
+                class="hoverline"
+                target="_blank"
+                >github.com/syed-yadish</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Varad on LinkedIn"
+              href="http://linkedin.com/in/varadbhogayata"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Varad on LinkedIn"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><i class="fa fa-linkedin"></i
+              ><a
+                aria-label="Varad on LinkedIn"
+                href="https://www.linkedin.com/in/yadish-bukhari-5b1a37a5/"
+                class="hoverline"
+                target="_blank"
+                >linkedin.com/in/yadish-bukhari</a
+              ></a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks
+        });
+      });
+    </script>
+  </body>
+</html>
